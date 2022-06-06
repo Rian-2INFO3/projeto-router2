@@ -5,7 +5,9 @@ import FooterComp from "@/components/template/FooterComp.vue";
 
 <template>
   <header-comp />
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
   <Footer-comp />
 </template>
 
@@ -13,7 +15,7 @@ import FooterComp from "@/components/template/FooterComp.vue";
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 
 body {
-  background-color: #4f374d;
+  background-color: #cfcfcf;
 }
 
 #app {
@@ -33,6 +35,6 @@ a {
 }
 
 .router-link-active {
-  color: #98b7e1;
+  color: #e0e0e0;
 }
 </style>
